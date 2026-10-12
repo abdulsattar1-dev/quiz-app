@@ -1,16 +1,36 @@
-# React + Vite
+# 🧠 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web development quiz. Every game picks 5 random questions about HTML, CSS, JavaScript and React.
 
-Currently, two official plugins are available:
+**🔗 Live demo:** _add your Vercel link here_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- 15 questions in the question bank — 5 random ones each game
+- Answers are shuffled every time
+- Green for the right answer, red for a wrong one
+- Only one answer per question
+- Score screen at the end with a message
+- **Play Again** starts a brand-new quiz
 
-## React Compiler
+## 🧠 What I learned
+- Managing several states at once (question, score, selected answer, result)
+- Shuffling an array (Fisher–Yates)
+- Lazy initial state: `useState(() => getNewQuiz())`
+- Conditional rendering for two screens (question / result)
+- Dynamic CSS classes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Run it on your computer
+```bash
+git clone https://github.com/abdulsattarnangri7-desktoop/quiz-app.git
+cd quiz-app
+npm install
+npm run dev
+```
+Then open http://localhost:5173
 
-## Expanding the Oxlint configuration
+## 📦 Built with
+React 19 · Vite · CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 👤 Author
+**Abdul Sattar** — WordPress & React Developer
+[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
