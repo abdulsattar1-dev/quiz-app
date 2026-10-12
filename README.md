@@ -2,7 +2,7 @@
 
 A web development quiz. Every game picks 5 random questions about HTML, CSS, JavaScript and React.
 
-**🔗 Live demo:** _add your Vercel link here_
+**🔗 Live demo:** https://quiz-app-amber-seven.vercel.app
 
 ## ✨ Features
 - 15 questions in the question bank — 5 random ones each game
