@@ -21,7 +21,7 @@ A web development quiz. Every game picks 5 random questions about HTML, CSS, Jav
 
 ## 🛠️ Run it on your computer
 ```bash
-git clone https://github.com/abdulsattarnangri7-desktoop/quiz-app.git
+git clone https://github.com/abdulsattar1-dev/quiz-app.git
 cd quiz-app
 npm install
 npm run dev
@@ -33,4 +33,4 @@ React 19 · Vite · CSS
 
 ## 👤 Author
 **Abdul Sattar** — WordPress & React Developer
-[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
+[GitHub](https://github.com/abdulsattar1-dev) · [Portfolio](http://abdulsattarportfolio.free.nf)
